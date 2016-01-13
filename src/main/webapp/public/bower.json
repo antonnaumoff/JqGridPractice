@@ -1,0 +1,18 @@
+{
+  "name": "JQGrid",
+  "version": "1.0.0",
+  "authors": [
+    "antonnaumoff <antonnaumoff@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "devDependencies": {
+    "jqGrid": "jqgrid#~5.0.1",
+    "requirejs": "~2.1.22",
+    "bootstrap": "~3.3.6"
+  }
+}

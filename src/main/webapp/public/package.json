@@ -1,0 +1,28 @@
+{
+  "name": "JQGrid",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+
+  },
+  "repository": {
+
+  },
+  "author": "antonnaumoff",
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "~1.6.5",
+    "gulp": "~3.9.0",
+    "gulp-concat": "~2.6.0",
+    "gulp-jsmin": "~0.1.5",
+    "gulp-rename": "~1.2.2",
+    "gulp-uglify": "~1.4.2",
+    "gulp-concat-css": "~2.2.0",
+    "gulp-load-plugins": "~1.1.0",
+    "gulp-inject": "~3.0.0",
+    "gulp-clean": "~0.3.1",
+    "gulp-tsc": "~1.1.4",
+    "gulp-typescript": "~2.9.2",
+    "gulp-sourcemaps": "~1.6.0"
+  }
+}
