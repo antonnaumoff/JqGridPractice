@@ -5,9 +5,9 @@ $(document).ready(function (e) {
         mtype: 'POST',
         colNames: ['Inv No', 'Title', 'Emp'],
         colModel: [
-            {name: 'id', index: 'id', width: 55, sortable: true, align: 'center'},
-            {name: 'title', index: 'title', width: 400, sortable: true, editable: true},
-            {name: 'id', editable: false, formatter: empLinkFormatter, align: 'center', width: 55}
+            {name: 'id', index: 'id', width: 60, sortable: true, align: 'center'},
+            {name: 'title', index: 'title', sortable: true, editable: true, width: 780},
+            {name: 'id', editable: false, formatter: empLinkFormatter, align: 'center', width: 60}
         ],
 
         pager: '#depPager',

@@ -13232,7 +13232,7 @@ $.jgrid.extend({
 			}			
 		});
 	},
-	// NS ,adjacency models
+	// NS ,adjacency com.springapp.mvc.models
 	getRootNodes : function(currentview) {
 		var result = [];
 		this.each(function(){
@@ -14018,7 +14018,7 @@ hs=function(w,t,c){return w.each(function(){var s=this._jqm;$(t).each(function()
 		return v;
 	};
 	$.fmatter.util = {
-		// Taken from YAHOO utils
+		// Taken from YAHOO com.springapp.mvc.utils
 		NumberFormat : function(nData,opts) {
 			if(!$.fmatter.isNumber(nData)) {
 				nData *= 1;

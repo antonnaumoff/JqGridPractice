@@ -71,7 +71,7 @@
 		return v;
 	};
 	$.fmatter.util = {
-		// Taken from YAHOO utils
+		// Taken from YAHOO com.springapp.mvc.utils
 		NumberFormat : function(nData,opts) {
 			if(!$.fmatter.isNumber(nData)) {
 				nData *= 1;

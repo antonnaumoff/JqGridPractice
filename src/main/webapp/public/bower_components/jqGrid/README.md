@@ -4,7 +4,7 @@ jqGrid
 jQuery grid plugin
 
 jqGrid is an Ajax-enabled JavaScript control that provides solutions for 
-representing and manipulating tabular data on the web. Since the grid is a 
+representing and manipulating tabular data on the com.springapp.mvc.web. Since the grid is a
 client-side solution, loading data dynamically through Ajax callbacks, it can be
 integrated with any server-side technology, including PHP, ASP, Java Servlets, 
 JSP, ColdFusion, and Perl.

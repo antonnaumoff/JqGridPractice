@@ -17,7 +17,7 @@ require([
 	"jqgrid/jqDnR",
 	"jqgrid/jqModal",
 	"jqgrid/jquery.fmatter",
-	"jqgrid/grid.utils",
+	"jqgrid/grid.com.springapp.mvc.utils",
 	"jqgrid/addons/ui.multiselect"
 
 ], function ($) {

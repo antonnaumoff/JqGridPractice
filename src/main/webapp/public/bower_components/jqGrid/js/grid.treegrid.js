@@ -240,7 +240,7 @@ $.jgrid.extend({
 			}			
 		});
 	},
-	// NS ,adjacency models
+	// NS ,adjacency com.springapp.mvc.models
 	getRootNodes : function(currentview) {
 		var result = [];
 		this.each(function(){

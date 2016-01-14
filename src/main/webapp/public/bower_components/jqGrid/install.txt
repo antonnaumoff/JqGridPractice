@@ -25,11 +25,11 @@ The desired modules can be built using the jqGrid download manager from the
 site pointed above. In order to use this, first a language file should be
 loaded and then the jqgrid file.
 
-Copy the desired language file from js/i18n directory to your web server
+Copy the desired language file from js/i18n directory to your com.springapp.mvc.web server
 directory where you store the java script files. Every language file is
 named grid.locale-XX.js, where XX is a two-letter code for the language.
 Copy the jquery.jqGid.min.js file to the same or other valid directory in
-your web server
+your com.springapp.mvc.web server
 
 Include both the files in script tags in the head section
 
