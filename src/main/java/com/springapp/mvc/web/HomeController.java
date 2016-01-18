@@ -1,0 +1,27 @@
+package com.springapp.mvc.web;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+@Controller
+public class HomeController {
+
+    private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
+
+    @RequestMapping(value = "/", method = RequestMethod.GET)
+    public String blank(Model model) {
+        return "departments";
+    }
+
+    @RequestMapping(value = "/employees/{id}", method = RequestMethod.GET)
+    public String employees(@PathVariable Integer id, Model model) {
+        model.addAttribute("id", id);
+        return "employees";
+    }
+
+}

@@ -52,6 +52,7 @@ $(document).ready(function (e) {
         sortable: true,
 
         userData: ['hello'],
+
         userDataOnFooter: true
     });
 
